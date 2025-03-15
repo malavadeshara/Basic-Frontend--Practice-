@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color: black;
+    height: 4rem;
+}
+
+.user-choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.choice button img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice button {
+    border: none;
+    background-color: white;
+}
+
+.choice button :hover {
+    border: 4px solid black;
+    opacity: 0.9;
+}
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 5px 5px 5px;
+}
+
+.user-score, .computer-score {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 0px 5px 0px 5px;
+}
+
+.result-message{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.result-message p {
+    background-color: blanchedalmond;
+    border: 3px solid green;
+    padding: 5px;
+    border-radius: 15px;
+}
